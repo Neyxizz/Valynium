@@ -533,17 +533,17 @@ function finity.new(themename, gprojectName, thinProject)
 		Name = "TopbarTip",
 		ZIndex = 2,
 		Size = UDim2.new(1, -30, 0, 30),
-		Position = UDim2.new(0, 30, 0, 0),
+		Position = UDim2.new(0, 10, 0, 0),
 		Text = "Press ' End ' to hide this menu",
-		Font = Enum.Font.GothamSemibold,
+		Font = Enum.Font.GothamBold,
 		TextSize = 13,
 		TextXAlignment = Enum.TextXAlignment.Left,
 		BackgroundTransparency = 1,
 		TextColor3 = theme.text_color,
 	})
-	
+	--.." | Press ' End ' to hide this menu"
 	if projectName then
-		self2.tip.Text = projectName.." | Press ' End ' to hide this menu"
+		self2.tip.Text = projectName
 	else
 		self2.tip.Text = "Press ' End ' to hide this menu"
 	end

@@ -817,7 +817,7 @@ function finity.new(themename, gprojectName, thinProject)
 					Font = Enum.Font.GothamBold,
 					TextColor3 = theme.text_color,
 					TextSize = 14,
-					Text = name,
+					Text = "[ "..name.." ]",
 					TextXAlignment = Enum.TextXAlignment.Left
 				})
 

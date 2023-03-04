@@ -811,13 +811,12 @@ function finity.new(themename, gprojectName, thinProject)
 					Name = "Title",
 					BackgroundColor3 = Color3.new(1, 1, 1),
 					BackgroundTransparency = 1,
-					Position = UDim2.new(0, 100, 0, 0),
 					Size = UDim2.new(1, 0, 1, 0),
 					ZIndex = 2,
-					Font = Enum.Font.GothamBold,
+					Font = Enum.Font.GothamMedium,
 					TextColor3 = theme.text_color,
-					TextSize = 14,
-					Text = "[ "..name.." ]",
+					TextSize = 13,
+					Text = name,
 					TextXAlignment = Enum.TextXAlignment.Left
 				})
 

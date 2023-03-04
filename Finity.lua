@@ -813,9 +813,9 @@ function finity.new(themename, gprojectName, thinProject)
 					BackgroundTransparency = 1,
 					Size = UDim2.new(1, 0, 1, 0),
 					ZIndex = 2,
-					Font = Enum.Font.Gotham,
+					Font = Enum.Font.GothamMedium,
 					TextColor3 = theme.text_color,
-					TextSize = 13,
+					TextSize = 14,
 					Text = name,
 					TextXAlignment = Enum.TextXAlignment.Left
 				})
@@ -1091,10 +1091,10 @@ function finity.new(themename, gprojectName, thinProject)
 							Position = UDim2.new(0, 10, 0, 0),
 							Size = UDim2.new(1, -35, 1, 0),
 							ZIndex = 2,
-							Font = Enum.Font.Gotham,
+							Font = Enum.Font.GothamMedium,
 							Text = tostring(cheat.value),
 							TextColor3 = theme.dropdown_text,
-							TextSize = 13,
+							TextSize = 14,
 							TextXAlignment = Enum.TextXAlignment.Left
 						})
 
@@ -1143,7 +1143,7 @@ function finity.new(themename, gprojectName, thinProject)
 									BackgroundTransparency = 1,
 									Size = UDim2.new(1, 0, 0, 20),
 									ZIndex = 3,
-									Font = Enum.Font.Gotham,
+									Font = Enum.Font.GothamMedium,
 									Text = value,
 									TextColor3 = theme.dropdown_text,
 									TextSize = 13
@@ -1295,11 +1295,11 @@ function finity.new(themename, gprojectName, thinProject)
 							Position = UDim2.new(0, 0, 0, 0),
 							Size = UDim2.new(1, 0, 1, 0),
 							ZIndex = 2,
-							Font = Enum.Font.Gotham,
+							Font = Enum.Font.GothamMedium,
 							Text = "",
 							TextColor3 = theme.textbox_text,
 							PlaceholderText = placeholdertext or "Value",
-							TextSize = 13,
+							TextSize = 14,
                             TextXAlignment = Enum.TextXAlignment.Center,
                             ClearTextOnFocus = false
 						})
@@ -1374,12 +1374,12 @@ function finity.new(themename, gprojectName, thinProject)
 							Position = UDim2.new(0.5, 5, 0.5, 0),
 							Size = UDim2.new(1, 0, 0, 13),
 							ZIndex = 2,
-							Font = Enum.Font.Gotham,
+							Font = Enum.Font.GothamMedium,
 							TextXAlignment = Enum.TextXAlignment.Left,
 							Text = "",
 							TextTransparency = 1,
 							TextColor3 = theme.slider_text,
-							TextSize = 13,
+							TextSize = 14,
 						})
 
 						cheat.visiframe = finity:Create("ImageLabel", {
@@ -1548,10 +1548,10 @@ function finity.new(themename, gprojectName, thinProject)
 							Position = UDim2.new(0, 0, 0, 0),
 							Size = UDim2.new(1, 0, 1, 0),
 							ZIndex = 2,
-							Font = Enum.Font.Gotham,
+							Font = Enum.Font.GothamMedium,
 							Text = button_text or "Button",
 							TextColor3 = theme.textbox_text,
-							TextSize = 13,
+							TextSize = 14,
 							TextXAlignment = Enum.TextXAlignment.Center
 						})
 
@@ -1615,10 +1615,10 @@ function finity.new(themename, gprojectName, thinProject)
 							Position = UDim2.new(0, 0, 0, 0),
 							Size = UDim2.new(1, 0, 1, 0),
 							ZIndex = 2,
-							Font = Enum.Font.Gotham,
+							Font = Enum.Font.GothamMedium,
 							Text = "Click to Bind",
 							TextColor3 = theme.textbox_text,
-							TextSize = 13,
+							TextSize = 14,
 							TextXAlignment = Enum.TextXAlignment.Center
 						})
 

@@ -610,10 +610,10 @@ function finity.new(themename, gprojectName, thinProject)
 			Size = UDim2.new(1, -4, 0, 25),
 			ZIndex = 2,
 			AutoButtonColor = false,
-			Font = Enum.Font.GothamSemibold,
+			Font = Enum.Font.GothamBold,
 			Text = name,
 			TextColor3 = theme.text_color,
-			TextSize = 14
+			TextSize = 15
 		})
 
 		category.container = finity:Create("ScrollingFrame", {

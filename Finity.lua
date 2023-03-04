@@ -536,7 +536,7 @@ function finity.new(themename, gprojectName, thinProject)
 		Position = UDim2.new(0, 10, 0, 0),
 		Text = "Press ' End ' to hide this menu",
 		Font = Enum.Font.GothamBold,
-		TextSize = 13,
+		TextSize = 15,
 		TextXAlignment = Enum.TextXAlignment.Left,
 		BackgroundTransparency = 1,
 		TextColor3 = theme.text_color,

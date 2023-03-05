@@ -10,7 +10,7 @@ local games = {
     [6728870912] = "World-Of-Stands.lua",
     [7479835547] = "World-Of-Stands.lua",
     [7555067289] = "World-Of-Stands.lua",
-    [5780309044] = "Stands-Awakening.lua",
+    [5780309044] = "Stands-Awakening.lua", 
     [11423379012] = "Stands-Awakening.lua",
     [11423467063] = "Stands-Awakening.lua",
     [7056922815] = "Reaper-2.lua",
@@ -20,7 +20,8 @@ local games = {
     [12634382039] = "Reaper-2.lua",
     [5130598377] = "A-Universal-Time.lua",
     [6846458508] = "A-Universal-Time.lua",
-    [6890041519] = "A-Universal-Time.lua"
+    [6890041519] = "A-Universal-Time.lua",
+    [12192552089] = "Fruit-Warriors.lua"
 }
 
 for i, v in pairs(games) do

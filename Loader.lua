@@ -25,8 +25,14 @@ local games = {
     [11420877323] = "Project-Mugetsu.lua",
     [10202329527] = "Project-Mugetsu.lua",
     [9474703390] = "Project-Mugetsu.lua",
-    [9447079542] = "Project-Mugetsu.lua"
-    
+    [9447079542] = "Project-Mugetsu.lua",
+    [13107615642] = "Project-Mugetsu.lua",
+    [9799727321] = "Project-Mugetsu.lua",
+    [11689551987] = "Project-Mugetsu.lua",
+    [11675417468] = "Project-Mugetsu.lua",
+    [9952723123] = "Project-Mugetsu.lua",
+    [9956766650] = "Project-Mugetsu.lua",
+    [13117265227] = "Project-Mugetsu.lua"  
 }
 
 for i, v in pairs(games) do

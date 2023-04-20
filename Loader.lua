@@ -43,7 +43,12 @@ local games = {
     [9321822839] = "Project-Slayers.lua",
     [9627847912] = "Project-Slayers.lua",
     [9366093452] = "Project-Slayers.lua",
-    [5956785391] = "Project-Slayers.lua"
+    [5956785391] = "Project-Slayers.lua",
+    [10136095859] = "Demon-Slayer-MS.lua",
+    [8874112980] = "Demon-Slayer-MS.lua",
+    [12999874474] = "Demon-Slayer-MS.lua",
+    [13000102968] = "Demon-Slayer-MS.lua",
+    
 }
 
 for i, v in pairs(games) do

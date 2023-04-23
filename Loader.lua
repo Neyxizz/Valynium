@@ -48,7 +48,14 @@ local games = {
     [8874112980] = "Demon-Slayer-MS.lua",
     [12999874474] = "Demon-Slayer-MS.lua",
     [13000102968] = "Demon-Slayer-MS.lua",
-    
+    [11573834824] = "Wisteria-2.lua",
+    [11708012314] = "Wisteria-2.lua",
+    [11599532987] = "Wisteria-2.lua",
+    [11754723819] = "Wisteria-2.lua",
+    [11689758348] = "Wisteria-2.lua",
+    [13190091082] = "Wisteria-2.lua",
+    [11513105086] = "Wisteria-2.lua",
+    [13211232001] = "Wisteria-2.lua"  
 }
 
 for i, v in pairs(games) do
